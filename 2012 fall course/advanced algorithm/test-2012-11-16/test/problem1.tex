@@ -1,0 +1,38 @@
+\noindent
+\textbf{Solution}
+
+\vspace{5mm}
+\noindent
+\textbf{Proof of correctness}
+
+The proposed greedy method transforms the original objective function that maximizes the subset of vertices with at least $K$ degree to one that minimize the subset of vertices such that the sub-graph induced by these vertices has degree smaller than $K$. Therefore, the left vertices construct the maximal sub-graph of G that includes the vertices with at least $K$ degree. 
+
+I will use the ``cut and paste'' method to prove that the removed vertices by the greedy method constitute the minimal subset so that the induced sub-graph the vertices of which all have degree smaller than $K$. 
+
+Suppose there is an optimal solution, a vertex sub-set $V^*$ to be removed. $ V^*= {v_1^*,v_2^*, \cdots, v_n^* }$ are the sequential deleted vertices with degree smaller than $K$ and the size of this subset is $N$.
+
+The function $d(v)$ represents the degree of vertex $v$. According to the proposed greedy algorithm, initially the vertex with smallest degree is denoted as $v_0$ and its degree is smaller than $K$(Otherwise, the greedy algorithm won't run), hence $d(v_1^*) \leq d(v_0) $.
+
+Case 1. If $v_0$ is the $v_i^*$ in $V^*$, namely, $V^*=\{ v_1^*,v_2^*, \cdots, v_{i-1}^* ,v_i^*, \cdots, v_n^* \}$. 
+
+During the sequential deletion of $v_1^*,v_2^*, \cdots, v_{i-1}^*$, the degree of $v_i^*$ may be updated because some of vertices in $\{ v_1^*,v_2^*, \cdots, v_{i-1}^* \}$ have edges linking $v_i^*$. Also, the degree of $\{ v_{i+1}^*, \cdots, v_n^* \}$ will be updated because of the deletion of $v_i^*$. 
+
+If I exchange the position of $v_1^*$ and $v_i^*$, the degree of all vertices in $V^*/v_i^*$ connecting $v_i^*$ would be updated after the $v_i^*$ is removed first. Moreover, these vertices' degree would be the same as the those in vertex removing process of original $V^*$ where $v_i^*$ is the $i$-th deleted. Therefore, the optimal solution $V^*$ can be transformed to anther optimal solution with the first greedy choice.
+
+Case 2. When $v_0$ is not in $V^*$, the $v_1^*$ is replaced by $v_0$ and $V_\alpha= V^*- v_1^* \bigcap v_0 $, we will see if $V_\alpha$ still hold the optimality, namely, $|V_\alpha| = V^*$.
+
+Here, I define another function, $R(v)$ stands for the a set of vertices that have edges with $v$ as one of end-points.
+
+$r(v)$ is a sub-set of $R(v)$ including the vertices both in $R(v)$ and $V^*$, namely, $r(v)= R(v) \cap V^*$.
+
+If $R(v_1^*)) \cap  R(v_0) = \phi $,  since the first deleted vertex in $V_\alpha$ is $v_0$, the vertices in $r(v_1^*)$'s degree won't updated. Therefore, the degree of some vertices in $r(v_1^*)$ may be larger than $K$. In $V^*$, we denote the set of  vertices whose deletions result from removing $v_1^*$ as set $\xi$. 
+
+Some vertices' degree may be decreased by 1 as the deletion of $v_0$ and smaller than $K$. These vertices should be added to $V_\alpha$. 
+ 
+If $R(v_1^*)) \cap  R(v_0) \neq \phi $
+ 
+ 
+
+\vspace{5mm}
+\noindent
+\textbf{Time complexity}

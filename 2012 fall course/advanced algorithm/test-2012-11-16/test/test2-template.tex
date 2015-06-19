@@ -1,0 +1,187 @@
+\documentclass[a4paper,11pt]{book}
+%
+% HOW TO USE THIS TEMPLATE:
+%
+% IN THE TWO INDICATED PLACES BELOW,
+%   ENTER YOUR NAME
+%
+% FOR EACH PROBLEM IN THE SET, WRITE YOUR SOLUTION IN A FILE
+%   NAMED "Problem1.tex", "Problem2.tex", etc.
+%   THESE SOLUTIONS FILES HAVE NO PREAMBLE AND
+%   NO \begin{document} \end{document}
+%   (THEY JUST GET INLINED WHEN RUNNING LaTeX)
+%
+% PLACE THESE SOLUTIONS FILES AND THE TEMPLATE IN THE SAME DIRECTORY
+%
+% RUN LaTeX
+%
+% IF YOU NEED TO ADD PACKAGES (E.G., FOR HANDLING FIGURES, OR
+%   FOR RUNNING PDFLaTeX), PUT IN A NEW \usepackage LINE AS
+%   SHOWN BELOW
+
+%
+%%%% REPLACE Robert Endre Tarjan WITH YOUR COMPLETE NAME
+%%%% NOTE: IF YOUR LAST NAME HAS ACCENTS, SOME LaTeX COMMANDS ARE:
+%%%%       for diaeresis/umlaut ", as in German, use \"a, \"u, \"o, etc.
+%%%%       for grave accent `, use \`e, \`a, \`u
+%%%%       for acute accent ', use \'a, \'e, \'u
+%%%%       for tilde ~, use \tilde{a}, \tilde{o}
+%%%%       for caret ^, use \hat{e}, \hat{o}
+%%%%	   if you need an accent on an i, say an umlaut, use \"\i{}
+%%%%		the \i{} is an i without its dot; e.g., na\"\i{}ve
+%%%%	   these all work well with lower-case letters,
+%%%%	        but only so-so with upper-case letters
+%%%%
+  \def\myname{Robert Endre Tarjan}
+
+%%%% IF ADDITIONAL PACKAGES ARE NEEDED, UNCOMMENT LINE BELOW
+%%%% AND ENTER THE PACKAGE NAMES
+%  \usepackage{additional_package_1,additional_package_2}
+
+
+
+% DO NOT MODIFY THIS NEXT PART
+%%%%%
+  \usepackage{times,amsmath,pslatex,graphicx}
+  \newcounter{problem}
+  \setcounter{problem}{0}
+  \makeatletter
+  \def\ps@headings{%
+    \let\@mkboth\markboth
+    \def\@evenfoot{\hfil\large\sf Test 2, Problem \theproblem\hfil}
+    \def\@oddfoot{\@evenfoot}
+    \def\@evenhead{\large\sc\myname\hfil\it\today\hfil\sf P.~\thepage}
+    \def\@oddhead{\@evenhead}}
+  \makeatother
+  \pagestyle{headings}
+  \advance\textwidth by16mm
+  \advance\oddsidemargin by-8mm
+  \advance\textheight by10mm
+%%%%%
+
+\begin{document}
+\begin{center}
+  \LARGE\sf
+  \begin{tabular}{||c|c|c|c||}
+    \hline\hline
+    Prob.~1 & Prob.~2 & Prob.~3 & Prob.~4 \\
+    \hline
+    &&&\\
+    \hline\hline
+  \end{tabular}
+\end{center}
+\bigskip\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addtocounter{problem}{1}
+\hbox to\textwidth{\huge\sf
+  Problem \theproblem .\hfil \framebox{\hbox to2cm{\hfil /25}}}
+
+\bigskip\noindent
+Recall that the subgraph $G'$ of $G$ induced by a subset $V'$ of $V$ is
+the graph $G'=(V',E')$, where $E'$ is the subset of $E$ containing exactly
+those edges with both endpoints in $V'$.
+You are given an undirected graph $G=(V, E)$ (as an array of adjacency lists)
+and a positive integer $K$
+and asked to find a maximum subset of vertices such that the subgraph
+of $G$ induced by these vertices has degree at least $K$ (i.e., every vertex
+in the induced subgraph has degree of at least $K$).
+
+Consider the following greedy algorithm:
+\begin{quote}
+  \sf
+  repeatedly remove the remaining vertex of smallest (updated) degree,
+  until all remaining vertices have degree at least $K$.
+\end{quote}
+We use a priority queue to retrieve the remaining vertex of smallest degree;
+since removing a vertex decreases the degree of its neighbors, we use a
+Fibonacci heap to take advantage of its efficient \texttt{DecreaseKey}
+operation.  Thus our algorithm begins by building a Fibonacci heap containing
+all vertices, using the degree of each vertex as the priority key.
+Our main loop then simply runs a \texttt{DeleteMin} operation on the heap.
+If the heap is empty, the algorithm stops and returns the empty set;
+otherwise, it tests the key (degree) of the returned vertex $v$ against $K$.
+If the degree is at least $K$, the algorithm stops and returns the collection
+of vertices still in the heap.  Otherwise, the algorithm updates the degrees
+of the neighbors of $v$ (listed in the adjacency list of $v$) using
+\texttt{DecreaseKey} and begins the next iteration.
+
+Prove the correctness of this algorithm and that it runs in
+$O(|E|+|V|\cdot\log(|V|))$ worst-case time.
+
+
+\medskip
+\input{problem1.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{}
+\addtocounter{problem}{1}
+\hbox to\textwidth{\huge\sf
+  Problem \theproblem .\hfil \framebox{\hbox to2cm{\hfil /25}}}
+
+\bigskip\noindent
+Give a polynomial-time algorithm for each of the following problems---sketch
+a proof of their correctness and analyze their running time.
+
+You are given an undirected graph $G=(V,E)$ with (not necessarily distinct)
+positive integral weights for the edges, and an edge $e_0\in E$.
+\begin{enumerate}
+  \itemsep 1pt
+  \item
+    Decide whether \emph{every} minimum spanning tree of $G$ contains $e_0$.
+  \item
+    Decide whether \emph{some} minimum spanning tree of $G$ contains $e_0$.
+\end{enumerate}
+
+\medskip
+\input{problem2.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{}
+\addtocounter{problem}{1}
+\hbox to\textwidth{\huge\sf
+  Problem \theproblem .\hfil \framebox{\hbox to2cm{\hfil /25}}}
+
+\bigskip\noindent
+Give a polynomial-time algorithm for each of the following problems---sketch
+a proof of their correctness and analyze their running time.
+
+You are given a bipartite graph $G=(V_1, V_2, E)$, $|V_1|=|V_2|$, and an
+edge $e_0\in E$.
+\begin{enumerate}
+  \itemsep 1pt
+  \item
+    Decide whether \emph{every} perfect matching of $G$ contains $e_0$.
+  \item
+    Decide whether \emph{some} perfect matching of $G$ contains $e_0$.
+\end{enumerate}
+
+\medskip
+\input{problem3.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{}
+\addtocounter{problem}{1}
+\hbox to\textwidth{\huge\sf
+  Problem \theproblem .\hfil \framebox{\hbox to2cm{\hfil /25}}}
+
+\bigskip\noindent
+You are given an undirected network $N=(V, E)$ with integral edge capacities,
+a source, $s$, and a sink, $t$.
+Define $N$ to be \emph{$k$-stable} if and only if the value of the maximum
+$s$-$t$ flow does not increase under any $k$-edge alteration.  A $k$-edge
+alteration consists of picking $k$ edges of the network and assigning them
+arbitrary new (positive integral) capacities.
+\begin{enumerate}
+  \item
+    Design an algorithm to test whether $N$ is $1$-stable; your
+    algorithm should run in $O(|V|^2 \cdot |E|)$ time.
+  \item
+    Design an algorithm to test whether $N$ is $2$-stable; your
+    algorithm should also run in $O(|V|^2 \cdot |E|)$ time,
+    although it is likely to involve significantly more work.
+\end{enumerate}
+
+\medskip
+\input{problem4.tex}
+\end{document}

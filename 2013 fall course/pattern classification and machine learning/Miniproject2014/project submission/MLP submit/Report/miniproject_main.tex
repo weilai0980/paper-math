@@ -1,0 +1,40 @@
+\documentclass[10pt,a4paper,oneside]{article}
+\usepackage{titling}
+\usepackage{fancyhdr}
+
+\title{Pattern Classification and Machine Learning - Miniproject}
+\author{Sornnarong Tasorn \& Tian Guo}
+\date{December 16, 2013}
+
+\input{Preamble.tex}
+\usepackage[left=2.5cm,right=2.5cm,top=2.85cm,bottom=2.85cm]{geometry}
+% Header
+	\pagestyle{fancy}
+	\fancyhf{}
+	\fancyhead[L]{{\small Sornnarong Tasorn \& Tian Guo}}
+	\fancyhead[R]{\small \thetitle}
+	\fancyfoot[L]{\small \thedate}
+	\fancyfoot[R]{{\small Page~\thepage~of~\pageref{lastpage}}}
+	\renewcommand{\headrulewidth}{1pt}		
+	\renewcommand{\footrulewidth}{1pt}		
+
+\fancypagestyle{plain}{%
+	\fancyhead{}  %  clear  all  header  and  footer  fields
+	\renewcommand{\headrulewidth}{0pt}
+	%\renewcommand{\footrulewidth}{1pt}
+}
+
+\begin{document}
+%\renewcommand*{\I}[1]{\ensuremath{\mathbf{1}_{\{#1\}}}}
+
+\maketitle	
+\pagenumbering{arabic}
+	 
+\input{miniproject_MLP.tex}
+
+%%%%% Appendix %%%%%
+%\clearpage
+%\appendix
+
+\label{lastpage}
+\end{document}

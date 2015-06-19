@@ -1,0 +1,240 @@
+CV file 0:  right:590    wrong:10   CV square error: 1.720301
+CV file 1:  right:595    wrong:5   CV square error: 1.734840
+CV file 2:  right:588    wrong:12   CV square error: 1.734413
+CV file 3:  right:591    wrong:9   CV square error: 1.691067
+CV file 4:  right:591    wrong:9   CV square error: 1.528804
+CV file 5:  right:595    wrong:5   CV square error: 1.467260
+CV file 6:  right:592    wrong:8   CV square error: 1.651990
+CV file 7:  right:586    wrong:14   CV square error: 1.715206
+CV file 8:  right:591    wrong:9   CV square error: 1.537677
+CV file 9:  right:594    wrong:6   CV square error: 1.356011
+  CV total risk: 1.613757
+, C: 4.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.895367
+CV file 1:  right:596    wrong:4   CV square error: 0.923180
+CV file 2:  right:592    wrong:8   CV square error: 0.933190
+CV file 3:  right:594    wrong:6   CV square error: 0.995519
+CV file 4:  right:595    wrong:5   CV square error: 0.862328
+CV file 5:  right:596    wrong:4   CV square error: 0.818407
+CV file 6:  right:593    wrong:7   CV square error: 0.961121
+CV file 7:  right:586    wrong:14   CV square error: 1.023875
+CV file 8:  right:591    wrong:9   CV square error: 0.822091
+CV file 9:  right:597    wrong:3   CV square error: 0.786290
+  CV total risk: 0.902137
+, C: 4.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.583358
+CV file 1:  right:595    wrong:5   CV square error: 0.587224
+CV file 2:  right:592    wrong:8   CV square error: 0.580368
+CV file 3:  right:595    wrong:5   CV square error: 0.638736
+CV file 4:  right:594    wrong:6   CV square error: 0.562057
+CV file 5:  right:595    wrong:5   CV square error: 0.547775
+CV file 6:  right:594    wrong:6   CV square error: 0.601118
+CV file 7:  right:588    wrong:12   CV square error: 0.663968
+CV file 8:  right:592    wrong:8   CV square error: 0.560691
+CV file 9:  right:598    wrong:2   CV square error: 0.498761
+  CV total risk: 0.582406
+, C: 4.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.413607
+CV file 1:  right:594    wrong:6   CV square error: 0.404458
+CV file 2:  right:592    wrong:8   CV square error: 0.412404
+CV file 3:  right:595    wrong:5   CV square error: 0.448691
+CV file 4:  right:594    wrong:6   CV square error: 0.396190
+CV file 5:  right:594    wrong:6   CV square error: 0.381966
+CV file 6:  right:594    wrong:6   CV square error: 0.436890
+CV file 7:  right:588    wrong:12   CV square error: 0.451433
+CV file 8:  right:592    wrong:8   CV square error: 0.374259
+CV file 9:  right:597    wrong:3   CV square error: 0.349727
+  CV total risk: 0.406962
+, C: 4.000000   tau: 0.040000
+CV file 0:  right:591    wrong:9   CV square error: 1.801775
+CV file 1:  right:595    wrong:5   CV square error: 1.734790
+CV file 2:  right:587    wrong:13   CV square error: 1.851076
+CV file 3:  right:591    wrong:9   CV square error: 1.729249
+CV file 4:  right:591    wrong:9   CV square error: 1.519674
+CV file 5:  right:595    wrong:5   CV square error: 1.526809
+CV file 6:  right:592    wrong:8   CV square error: 1.695237
+CV file 7:  right:585    wrong:15   CV square error: 1.749940
+CV file 8:  right:592    wrong:8   CV square error: 1.488227
+CV file 9:  right:594    wrong:6   CV square error: 1.456500
+  CV total risk: 1.655328
+, C: 5.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.918836
+CV file 1:  right:595    wrong:5   CV square error: 0.931196
+CV file 2:  right:591    wrong:9   CV square error: 0.927691
+CV file 3:  right:594    wrong:6   CV square error: 0.966098
+CV file 4:  right:596    wrong:4   CV square error: 0.853070
+CV file 5:  right:596    wrong:4   CV square error: 0.822235
+CV file 6:  right:593    wrong:7   CV square error: 0.960791
+CV file 7:  right:586    wrong:14   CV square error: 1.020931
+CV file 8:  right:591    wrong:9   CV square error: 0.837242
+CV file 9:  right:598    wrong:2   CV square error: 0.776926
+  CV total risk: 0.901502
+, C: 5.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.585201
+CV file 1:  right:595    wrong:5   CV square error: 0.588562
+CV file 2:  right:592    wrong:8   CV square error: 0.582839
+CV file 3:  right:595    wrong:5   CV square error: 0.638958
+CV file 4:  right:593    wrong:7   CV square error: 0.560677
+CV file 5:  right:594    wrong:6   CV square error: 0.548383
+CV file 6:  right:594    wrong:6   CV square error: 0.606562
+CV file 7:  right:588    wrong:12   CV square error: 0.662104
+CV file 8:  right:592    wrong:8   CV square error: 0.558387
+CV file 9:  right:598    wrong:2   CV square error: 0.502563
+  CV total risk: 0.583424
+, C: 5.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.413607
+CV file 1:  right:594    wrong:6   CV square error: 0.407020
+CV file 2:  right:592    wrong:8   CV square error: 0.412611
+CV file 3:  right:595    wrong:5   CV square error: 0.448691
+CV file 4:  right:594    wrong:6   CV square error: 0.396507
+CV file 5:  right:593    wrong:7   CV square error: 0.381121
+CV file 6:  right:594    wrong:6   CV square error: 0.436890
+CV file 7:  right:588    wrong:12   CV square error: 0.451433
+CV file 8:  right:592    wrong:8   CV square error: 0.374259
+CV file 9:  right:597    wrong:3   CV square error: 0.349241
+  CV total risk: 0.407138
+, C: 5.000000   tau: 0.040000
+CV file 0:  right:591    wrong:9   CV square error: 1.798428
+CV file 1:  right:597    wrong:3   CV square error: 1.772978
+CV file 2:  right:590    wrong:10   CV square error: 1.831295
+CV file 3:  right:592    wrong:8   CV square error: 1.735556
+CV file 4:  right:592    wrong:8   CV square error: 1.531534
+CV file 5:  right:596    wrong:4   CV square error: 1.532249
+CV file 6:  right:592    wrong:8   CV square error: 1.613891
+CV file 7:  right:585    wrong:15   CV square error: 1.818270
+CV file 8:  right:591    wrong:9   CV square error: 1.516658
+CV file 9:  right:595    wrong:5   CV square error: 1.377576
+  CV total risk: 1.652844
+, C: 6.000000   tau: 0.040000
+CV file 0:  right:593    wrong:7   CV square error: 0.915481
+CV file 1:  right:595    wrong:5   CV square error: 0.941820
+CV file 2:  right:591    wrong:9   CV square error: 0.938885
+CV file 3:  right:594    wrong:6   CV square error: 0.981631
+CV file 4:  right:593    wrong:7   CV square error: 0.852830
+CV file 5:  right:596    wrong:4   CV square error: 0.830964
+CV file 6:  right:593    wrong:7   CV square error: 0.958935
+CV file 7:  right:586    wrong:14   CV square error: 1.023535
+CV file 8:  right:591    wrong:9   CV square error: 0.841402
+CV file 9:  right:597    wrong:3   CV square error: 0.768820
+  CV total risk: 0.905430
+, C: 6.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.583659
+CV file 1:  right:595    wrong:5   CV square error: 0.588856
+CV file 2:  right:592    wrong:8   CV square error: 0.583245
+CV file 3:  right:595    wrong:5   CV square error: 0.637964
+CV file 4:  right:593    wrong:7   CV square error: 0.557629
+CV file 5:  right:594    wrong:6   CV square error: 0.548956
+CV file 6:  right:594    wrong:6   CV square error: 0.607553
+CV file 7:  right:588    wrong:12   CV square error: 0.662104
+CV file 8:  right:592    wrong:8   CV square error: 0.560594
+CV file 9:  right:598    wrong:2   CV square error: 0.503762
+  CV total risk: 0.583432
+, C: 6.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.413607
+CV file 1:  right:594    wrong:6   CV square error: 0.407020
+CV file 2:  right:592    wrong:8   CV square error: 0.412611
+CV file 3:  right:595    wrong:5   CV square error: 0.448691
+CV file 4:  right:594    wrong:6   CV square error: 0.396507
+CV file 5:  right:593    wrong:7   CV square error: 0.381121
+CV file 6:  right:594    wrong:6   CV square error: 0.436890
+CV file 7:  right:588    wrong:12   CV square error: 0.451433
+CV file 8:  right:592    wrong:8   CV square error: 0.374259
+CV file 9:  right:597    wrong:3   CV square error: 0.349241
+  CV total risk: 0.407138
+, C: 6.000000   tau: 0.040000
+CV file 0:  right:591    wrong:9   CV square error: 1.799145
+CV file 1:  right:596    wrong:4   CV square error: 1.780694
+CV file 2:  right:590    wrong:10   CV square error: 1.808967
+CV file 3:  right:592    wrong:8   CV square error: 1.741468
+CV file 4:  right:591    wrong:9   CV square error: 1.536917
+CV file 5:  right:596    wrong:4   CV square error: 1.500053
+CV file 6:  right:592    wrong:8   CV square error: 1.651885
+CV file 7:  right:586    wrong:14   CV square error: 1.829799
+CV file 8:  right:591    wrong:9   CV square error: 1.546368
+CV file 9:  right:595    wrong:5   CV square error: 1.427610
+  CV total risk: 1.662291
+, C: 7.000000   tau: 0.040000
+CV file 0:  right:593    wrong:7   CV square error: 0.901356
+CV file 1:  right:595    wrong:5   CV square error: 0.934106
+CV file 2:  right:591    wrong:9   CV square error: 0.933920
+CV file 3:  right:594    wrong:6   CV square error: 0.959638
+CV file 4:  right:595    wrong:5   CV square error: 0.858364
+CV file 5:  right:596    wrong:4   CV square error: 0.831712
+CV file 6:  right:593    wrong:7   CV square error: 0.962199
+CV file 7:  right:586    wrong:14   CV square error: 1.023509
+CV file 8:  right:591    wrong:9   CV square error: 0.840440
+CV file 9:  right:597    wrong:3   CV square error: 0.775119
+  CV total risk: 0.902036
+, C: 7.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.583659
+CV file 1:  right:595    wrong:5   CV square error: 0.588013
+CV file 2:  right:592    wrong:8   CV square error: 0.583245
+CV file 3:  right:595    wrong:5   CV square error: 0.637964
+CV file 4:  right:593    wrong:7   CV square error: 0.557629
+CV file 5:  right:594    wrong:6   CV square error: 0.548956
+CV file 6:  right:594    wrong:6   CV square error: 0.607553
+CV file 7:  right:588    wrong:12   CV square error: 0.662104
+CV file 8:  right:592    wrong:8   CV square error: 0.560594
+CV file 9:  right:598    wrong:2   CV square error: 0.503762
+  CV total risk: 0.583348
+, C: 7.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.413607
+CV file 1:  right:594    wrong:6   CV square error: 0.407020
+CV file 2:  right:592    wrong:8   CV square error: 0.412611
+CV file 3:  right:595    wrong:5   CV square error: 0.448691
+CV file 4:  right:594    wrong:6   CV square error: 0.396507
+CV file 5:  right:593    wrong:7   CV square error: 0.381121
+CV file 6:  right:594    wrong:6   CV square error: 0.436890
+CV file 7:  right:588    wrong:12   CV square error: 0.451433
+CV file 8:  right:592    wrong:8   CV square error: 0.374259
+CV file 9:  right:597    wrong:3   CV square error: 0.349241
+  CV total risk: 0.407138
+, C: 7.000000   tau: 0.040000
+CV file 0:  right:593    wrong:7   CV square error: 1.777325
+CV file 1:  right:596    wrong:4   CV square error: 1.813635
+CV file 2:  right:589    wrong:11   CV square error: 1.788894
+CV file 3:  right:591    wrong:9   CV square error: 1.781344
+CV file 4:  right:591    wrong:9   CV square error: 1.587753
+CV file 5:  right:597    wrong:3   CV square error: 1.502575
+CV file 6:  right:592    wrong:8   CV square error: 1.636708
+CV file 7:  right:585    wrong:15   CV square error: 1.865968
+CV file 8:  right:590    wrong:10   CV square error: 1.557258
+CV file 9:  right:595    wrong:5   CV square error: 1.438140
+  CV total risk: 1.674960
+, C: 8.000000   tau: 0.040000
+CV file 0:  right:593    wrong:7   CV square error: 0.920247
+CV file 1:  right:595    wrong:5   CV square error: 0.945562
+CV file 2:  right:591    wrong:9   CV square error: 0.943291
+CV file 3:  right:594    wrong:6   CV square error: 0.970339
+CV file 4:  right:594    wrong:6   CV square error: 0.855713
+CV file 5:  right:596    wrong:4   CV square error: 0.822348
+CV file 6:  right:593    wrong:7   CV square error: 0.959769
+CV file 7:  right:586    wrong:14   CV square error: 1.023509
+CV file 8:  right:591    wrong:9   CV square error: 0.842900
+CV file 9:  right:597    wrong:3   CV square error: 0.782629
+  CV total risk: 0.906631
+, C: 8.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.583659
+CV file 1:  right:595    wrong:5   CV square error: 0.588013
+CV file 2:  right:592    wrong:8   CV square error: 0.583245
+CV file 3:  right:595    wrong:5   CV square error: 0.637964
+CV file 4:  right:593    wrong:7   CV square error: 0.557629
+CV file 5:  right:594    wrong:6   CV square error: 0.548956
+CV file 6:  right:594    wrong:6   CV square error: 0.607553
+CV file 7:  right:588    wrong:12   CV square error: 0.662104
+CV file 8:  right:592    wrong:8   CV square error: 0.560594
+CV file 9:  right:598    wrong:2   CV square error: 0.503762
+  CV total risk: 0.583348
+, C: 8.000000   tau: 0.040000
+CV file 0:  right:594    wrong:6   CV square error: 0.413607
+CV file 1:  right:594    wrong:6   CV square error: 0.407020
+CV file 2:  right:592    wrong:8   CV square error: 0.412611
+CV file 3:  right:595    wrong:5   CV square error: 0.448691
+CV file 4:  right:594    wrong:6   CV square error: 0.396507
+CV file 5:  right:593    wrong:7   CV square error: 0.381121
+CV file 6:  right:594    wrong:6   CV square error: 0.436890
+CV file 7:  right:588    wrong:12   CV square error: 0.451433
+CV file 8:  right:592    wrong:8   CV square error: 0.374259
+CV file 9:  right:597    wrong:3   CV square error: 0.349241
+  CV total risk: 0.407138
+, C: 8.000000   tau: 0.040000

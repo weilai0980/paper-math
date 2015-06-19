@@ -1,0 +1,1 @@
+CV file 0:  right:594    wrong:6   CV square error: 0.400733

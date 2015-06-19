@@ -1,0 +1,97 @@
+\documentclass[11pt]{article}
+  \usepackage{pslatex}
+  \usepackage{amsmath}
+  \advance\textwidth by2cm
+  \advance\oddsidemargin by-1cm
+  \advance\textheight by3cm
+  \headheight 0pt\headsep 0pt
+
+\begin{document}
+  \thispagestyle{empty}
+
+\begin{center}
+  \Large\sf Advanced Algorithms, Fall 2012\\
+  
+  \medskip
+  \large\sf Prof. Bernard Moret\\
+
+  \medskip\bigskip
+  \Large\bf Homework Assignment \#6\\
+
+  \smallskip
+  \normalsize\rm due Sunday night, Nov.\ 4
+\end{center}
+
+\bigskip\rm\noindent
+\textit{Write your solutions in LaTeX using the template provided on the
+Moodle and web sites and upload your PDF file through Moodle by 4:00 am
+Monday morning, Nov.\ 5.}
+
+
+\bigskip\rm\noindent
+\emph{Question 1.~(Matching)}\\
+Consider the following simple model for mobile phones.
+We have $n$ base stations and $n$ phones, all of which are specified as points
+in the plane.  The phones are said to be \emph{fully connected} if each phone
+can be assigned to a distinct base station, and the straight-line distance
+between the assigned pair of phone and station is no more than a given
+constant $c$.
+
+Suppose the user of the first phone drives from its original point along a line
+for $k$ units of distance.  As this phone moves, we have to update the
+assignment~(possible several times) to keep all phones fully connected.  Give
+an $O(n^3)$ running time algorithm to decide whether it is possible to keep all
+phones fully connected at all times during the driving.  (Hint: a straight line
+cuts a circle in at most two points.)
+
+
+\bigskip\rm\noindent
+\emph{Question 2.~(Stable Matching)}\\
+Prove that a stable matching is both man-optimal and woman-optimal if and
+only if it is the unique stable matching for the problem.
+
+\bigskip\rm\noindent
+\emph{Question 3.~(Stable Matching)}\\
+Consider the stable matching problem in the case where ties are allowed in
+the preference lists.
+\begin{enumerate}
+  \itemsep 0pt
+  \item
+    A \emph{strong instability} in a perfect matching $S$ consists of a man $m$
+    and a woman $w$ such that $m$ and $w$ prefer each other to their partners
+    in $S$.  Does there always exist a perfect matching with no strong
+    instability?
+    
+    Give a polynomial-time algorithm that is guaranteed to find a
+    perfect matching without strong instability and prove the correctness of
+    your algorithm, or give an instance for which every perfect matching has a
+    strong instability.
+  \item
+    A \emph{weak instability} in a perfect matching $S$ consists of a man $m$
+    and a woman $w$ such that $m$ prefers $w$ to his partner in $S$ and $w$
+    either prefers $m$ to his partner in $S$ or likes the two men equally; or
+    $w$ prefers $m$ to her partner in $S$ and $m$ either prefers $w$ to her
+    partner in $S$ or is likes them equally.  Does there always exist a
+    perfect matching with no weak instability?
+    
+    Give a polynomial-time
+    algorithm that is guaranteed to find a perfect matching without weak
+    instability, or give an instance for which every perfect matching has a
+    weak instability.
+\end{enumerate}
+
+\bigskip\rm\noindent
+\emph{Question 4.~(Network Flow)}\\
+We are given a directed network $G=(V,E)$ with a single specified \emph{good}
+node $g\in V$ and a set of \emph{bad} nodes $B\subset V$~(naturally, we
+have $g\not\in B$).  We want to disconnect bad nodes from $g$ by removing
+edges, but face a tradeoff: we want to remove as few edges as possible and
+yet we want to remove as many bad nodes as possible.
+
+In consequence, we want to maximize the objective function $|f(S)| -
+\alpha\cdot|S|$, where $S$ is the subset of $E$ to remove, $f(S)$ is the set of
+bad nodes that cannot be reached from $g$ in the subgraph $(V, E-S)$, and
+$\alpha$ is a positive constant.  Give a polynomial-time algorithm to find a
+subset $S\subset E$ to maximize this objective function, and prove the
+correctness of your algorithm.
+\end{document}

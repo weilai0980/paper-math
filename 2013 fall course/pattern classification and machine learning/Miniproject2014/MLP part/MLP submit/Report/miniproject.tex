@@ -1,0 +1,78 @@
+(I) The aim of this miniproject is to get the experience on implementing two different machine learning methods for solving the same hand-written digits pattern recognition problem. We are supposed to understand and use both error back-propagation gradient descent optimization for a multi-layer perceptron (MLP) and a support vector machine (SVM) method, then apply to the MNIST dataset. So, we can compare the performance for each methods and discuss how and why the results behave.
+
+(II) 1.The given .mat files contain training and test sets for the two binary classification. For the multi-layer perceptron (MLP), we are supposed to distinguish between digits 3 and 5 and between digits 4 and 9. Each image of a digit is stored as a vector of length 784. The provided files contain pattern matrices of size n x 784, where n is the number of patterns. The training set is used for training the data and updating the parameter, and the test set is used only for evaluation of the final performance.
+
+The next step for the multi-layer perceptron (MLP) is to split the training part into a training set (2/3) and a validation set (1/3). In the provided training data there are n=6,000 patterns, so after splitting the training set will have the size of 4,000 x 784 and the test set will have the size of 2,000 x 784.
+
+The first thing we have to do for machine learning problem is the preprocessing such as loading the datasets in the directory path we created, and then normalizing all of the data to have coefficients between 0 and 1. To do this, we compute the maximum $\alpha_max and the minimum $\alpha_min over all coefficients of all training patterns, then substitute each input pattern by the following equation
+x_norm=\frac{1}{\alpha_max - \alpha_min}(x-\alpha_min \1)
+For the test set, we also normalize all pattern by using the same coefficients $\alpha_max and $\alpha_min as stored in the training patterns because we cannot treat and compute the test data even for preprocessing.
+
+2.The final setup of the MLP: the network structure for this project, we use a two-layer MLP, with one hidden and one output layer, use the gating transfer function as the following
+g(a_1,a_2)=a_1 \sigma(a_2)
+\sigma(x)=\frac{1}{1+e^{-1}}
+for the hidden units. The binary classifier and the activation for each layer are given by
+f(x)=sgn(a^(2)(x))
+a^(2)(x)=\sum_{q=1}^h_1 w_q^(2) g(a_2q-1^(1),a_2q^(1))+b^(2)
+a_k^(1)=\sum_{j=1}^d w_kj^(1)x_j+b_k^(1)
+k=1,...,2h_1
+
+In the code, we are supposed to minimize the logistic error function, which evaluated the whole training set, is given by
+\E_log (w)=\frac{1}{n}\sigma_{i=1}^n log(1+e^{-t_i a^(2) (x_i)})
+where the binary training dataset is $\D={(x_i,t_i) \i=1,...,n} and t_i is -1 or 1.
+
+To do this, we have to evaluate by using the error back-propagation gradient descent optimization, which is to take the gradient with respect to the parameters related (weight and bias).
+For the output layer, the residual is
+r^(2)=\frac{\partial E_i}{\partial a^(2)}=t_i \sigma(t_i a^(2) (x_i))
+
+\frac{\partial E_i}{\partial b^(2)}=r^(2)
+\grad_{w_q^(2)} E_i=r^(2)\frac{\partial a^(2)}{\partial w_q^(2)}=r^(2)\frac{\partial w_q^(2) g(a_2q-1^(1),a_2q^(1))+b^(2)}{\partial w_q^(2)}
+=g(a_2q-1^(1),a_2q^(1))
+
+For the hidden layer, the residual is
+\frac{\partial E_i}{\partial a^(1)}=\frac{\partial E_i}{\partial a^(2)}}\dot \frac{\partial a^(2)}{\partial g}\dot \frac{\partial g}{\partial a^(1)} =r^(2)\dot w^(2)\dot g'
+r_k^(1)
+
+The derivative of the transfer function g is
+g'(a_1,a_2)=\sigma(a_2)  odd
+=a_1 \sigma(a_2)(a-\sigma(a_2)) even
+
+We consider k into 2 cases
+1. k is odd
+r_k^(1)=r^(2)\dot w^(2)\dot\sigma(a_2) 
+2. k is even
+r_k^(1)=r^(2)\dot w^(2)\dot a_1 \sigma(a_2)(a-\sigma(a_2))
+
+\frac{\partial E_i}{\partial w_kj^(1)}=r_k^(1)\frac{\partial w_kj^(1) x_j+b_k^(1)}{\partial w_kj^(1)}
+=r_k^(1)x_j
+
+The gradient descent with momentum works as follows
+\delta w_i=-\eta(1-\mu)\gradient_{w_i}E+\mu\delta w_{i-1}
+denoted by \delta w_i=w_{i+1}-w_i the update done in iteration i.
+
+We can test if the backpropagation code for the gradient computation is bug-free or not. For the logistic error function E(w) of a single weight w, the gradient of error is
+g(w)=\E'(w)=d\E/dw
+Gradient testing will be done by comparing the result of gradient g(w) with symmetric finite-difference approximation that is the evaluation of the error function at two other points that are very close to w, given by
+
+g(w)=\frac{\E(w+\epsilon)-\E(w-\epsilon)}{2\epsilon}
+
+for a very small \epsilon > 0 (we used \epsilon = 0.001)
+
+We have tested that the above equation satisfied. It means that our backpropagation code works.
+ 
+To select the best parameters, we ran the MLP algorithm with the various parameters of the number of hidden units h1 (h1\belong ), the learning rate $\eta and the momentum term $\mu and stored the validation logistic error in the form of matrices with 4-dimension depending on each parameters h1,$\eta,$\mu and each iteration of N=1000. Next, we see the effects of each parameters by fixing the remaining parameters.
+figure1.1  Choose \eta=0.01 \mu=0.2 and see h_1
+figure1.2  Choose h_1=30 \eta=0.01 and see \mu
+figure1.3  Choose h_1=30 \mu=0.2 and see \eta
+
+For each selection, we selected the best parameter that gives the minimum logistic error. As a result, for example we choose the number of hidden units h_1=30, the learning rate $\eta=0.01 and the momentum term $\mu=0.2 for digits 3 and 5 binary classification. The experiment tells us that if we do not select the parameter appropriately, we will face some problems. For example, if we determine h_1 higher (says, 100), the validation logistic error will be greatly increasing that is a result of the overfitting problem. Or if we ran the MLP with too large learning rate $\eta and momentum term $\mu , the convergence speed will be too fast. We can see this effect by at a certain iteration, the running of the MLP will be finished prior to iteration of N=1000.
+
+3. For each digits 3 and 5, and 4 and 9 binary classification, we used the different parameters. The method for model selection, and the chosen parameters and its plots for digits 3 and 5 binary classification has been shown in the previous part.  Differently, for 3 and 5 binary classification we choose the number of hidden units h_1=..., the learning rate $\eta=... and the momentum term $\mu=... . The plots are depicted as followings.
+
+(III) 1. By learning the multi-layer perceptron (MLP), we got the training set logistic error, the validation set logistic error, and the validation set (zero/one) error as a function of the epoch number
+\frac{1}{m}\sum_{j=1}^m \1_{t_j a^(2)(x_j)\leq0}. 
+The error curves for digits 3 and 5, and 4 and 9 binary classification have been shown in Figure and Figure() respectively.
+
+2. After learning MLP, we got the latest updated parameters (weight and bias). We used it to compute the error and the activation over the whole test dataset. Then, we evaluate the misclassified data by computing t_i a^(2) (x_i) for each pattern. For digits 3 and 5 binary classification, the result is illustrated in Figure() and the standard deviation is . For digits 4 and 9 binary classification, the result is illustrated in Figure() and the standard deviation is . 
+
+3. For each run, in the patterns which are misclassified, we stored the values t_i a^(2) (x_i) which has largest negative and close to zero. Then, we separately plot the graph in Figure and Figure.

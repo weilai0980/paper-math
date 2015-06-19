@@ -1,0 +1,327 @@
+CV file 0:  right:600    wrong:0   CV square error: 1.097984
+CV file 1:  right:599    wrong:1   CV square error: 1.106525
+CV file 2:  right:597    wrong:3   CV square error: 1.109075
+CV file 3:  right:600    wrong:0   CV square error: 1.109209
+CV file 4:  right:600    wrong:0   CV square error: 1.097244
+CV file 5:  right:51    wrong:549   CV square error: 1.112208
+CV file 6:  right:82    wrong:518   CV square error: 1.111856
+CV file 7:  right:103    wrong:497   CV square error: 1.111443
+CV file 8:  right:14    wrong:586   CV square error: 1.114413
+CV file 9:  right:6    wrong:594   CV square error: 1.133001
+  CV total risk: 1.110296
+, C: 5.000000   tau: 0.200000
+CV file 0:  right:3    wrong:597   CV square error: 1.118518
+CV file 1:  right:598    wrong:2   CV square error: 1.109319
+CV file 2:  right:600    wrong:0   CV square error: 1.084278
+CV file 3:  right:600    wrong:0   CV square error: 1.098205
+CV file 4:  right:600    wrong:0   CV square error: 1.103014
+CV file 5:  right:183    wrong:417   CV square error: 1.110270
+CV file 6:  right:1    wrong:599   CV square error: 1.130883
+CV file 7:  right:150    wrong:450   CV square error: 1.110556
+CV file 8:  right:17    wrong:583   CV square error: 1.114040
+CV file 9:  right:26    wrong:574   CV square error: 1.114034
+  CV total risk: 1.109312
+, C: 5.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:198    wrong:402   CV square error: 1.109616
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.110962
+, C: 5.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:252    wrong:348   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 5.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:248    wrong:352   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 5.000000   tau: 0.200000
+CV file 0:  right:600    wrong:0   CV square error: 1.097984
+CV file 1:  right:599    wrong:1   CV square error: 1.106525
+CV file 2:  right:597    wrong:3   CV square error: 1.109075
+CV file 3:  right:600    wrong:0   CV square error: 1.109209
+CV file 4:  right:600    wrong:0   CV square error: 1.097244
+CV file 5:  right:51    wrong:549   CV square error: 1.112208
+CV file 6:  right:82    wrong:518   CV square error: 1.111856
+CV file 7:  right:103    wrong:497   CV square error: 1.111443
+CV file 8:  right:14    wrong:586   CV square error: 1.114413
+CV file 9:  right:6    wrong:594   CV square error: 1.133001
+  CV total risk: 1.110296
+, C: 6.000000   tau: 0.200000
+CV file 0:  right:3    wrong:597   CV square error: 1.118518
+CV file 1:  right:598    wrong:2   CV square error: 1.109319
+CV file 2:  right:600    wrong:0   CV square error: 1.084278
+CV file 3:  right:600    wrong:0   CV square error: 1.098205
+CV file 4:  right:600    wrong:0   CV square error: 1.103014
+CV file 5:  right:183    wrong:417   CV square error: 1.110270
+CV file 6:  right:1    wrong:599   CV square error: 1.130883
+CV file 7:  right:150    wrong:450   CV square error: 1.110556
+CV file 8:  right:17    wrong:583   CV square error: 1.114040
+CV file 9:  right:26    wrong:574   CV square error: 1.114034
+  CV total risk: 1.109312
+, C: 6.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:198    wrong:402   CV square error: 1.109616
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.110962
+, C: 6.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:252    wrong:348   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 6.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:248    wrong:352   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 6.000000   tau: 0.200000
+CV file 0:  right:600    wrong:0   CV square error: 1.097984
+CV file 1:  right:599    wrong:1   CV square error: 1.106525
+CV file 2:  right:597    wrong:3   CV square error: 1.109075
+CV file 3:  right:600    wrong:0   CV square error: 1.109209
+CV file 4:  right:600    wrong:0   CV square error: 1.097244
+CV file 5:  right:51    wrong:549   CV square error: 1.112208
+CV file 6:  right:82    wrong:518   CV square error: 1.111856
+CV file 7:  right:103    wrong:497   CV square error: 1.111443
+CV file 8:  right:14    wrong:586   CV square error: 1.114413
+CV file 9:  right:6    wrong:594   CV square error: 1.133001
+  CV total risk: 1.110296
+, C: 7.000000   tau: 0.200000
+CV file 0:  right:3    wrong:597   CV square error: 1.118518
+CV file 1:  right:598    wrong:2   CV square error: 1.109319
+CV file 2:  right:600    wrong:0   CV square error: 1.084278
+CV file 3:  right:600    wrong:0   CV square error: 1.098205
+CV file 4:  right:600    wrong:0   CV square error: 1.103014
+CV file 5:  right:183    wrong:417   CV square error: 1.110270
+CV file 6:  right:1    wrong:599   CV square error: 1.130883
+CV file 7:  right:150    wrong:450   CV square error: 1.110556
+CV file 8:  right:17    wrong:583   CV square error: 1.114040
+CV file 9:  right:26    wrong:574   CV square error: 1.114034
+  CV total risk: 1.109312
+, C: 7.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:198    wrong:402   CV square error: 1.109616
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.110962
+, C: 7.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:252    wrong:348   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 7.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:248    wrong:352   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 7.000000   tau: 0.200000
+CV file 0:  right:600    wrong:0   CV square error: 1.097984
+CV file 1:  right:599    wrong:1   CV square error: 1.106525
+CV file 2:  right:597    wrong:3   CV square error: 1.109075
+CV file 3:  right:600    wrong:0   CV square error: 1.109209
+CV file 4:  right:600    wrong:0   CV square error: 1.097244
+CV file 5:  right:51    wrong:549   CV square error: 1.112208
+CV file 6:  right:82    wrong:518   CV square error: 1.111856
+CV file 7:  right:103    wrong:497   CV square error: 1.111443
+CV file 8:  right:14    wrong:586   CV square error: 1.114413
+CV file 9:  right:6    wrong:594   CV square error: 1.133001
+  CV total risk: 1.110296
+, C: 8.000000   tau: 0.200000
+CV file 0:  right:3    wrong:597   CV square error: 1.118518
+CV file 1:  right:598    wrong:2   CV square error: 1.109319
+CV file 2:  right:600    wrong:0   CV square error: 1.084278
+CV file 3:  right:600    wrong:0   CV square error: 1.098205
+CV file 4:  right:600    wrong:0   CV square error: 1.103014
+CV file 5:  right:183    wrong:417   CV square error: 1.110270
+CV file 6:  right:1    wrong:599   CV square error: 1.130883
+CV file 7:  right:150    wrong:450   CV square error: 1.110556
+CV file 8:  right:17    wrong:583   CV square error: 1.114040
+CV file 9:  right:26    wrong:574   CV square error: 1.114034
+  CV total risk: 1.109312
+, C: 8.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:198    wrong:402   CV square error: 1.109616
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.110962
+, C: 8.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:252    wrong:348   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 8.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:248    wrong:352   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 8.000000   tau: 0.200000
+CV file 0:  right:600    wrong:0   CV square error: 1.097984
+CV file 1:  right:599    wrong:1   CV square error: 1.106525
+CV file 2:  right:597    wrong:3   CV square error: 1.109075
+CV file 3:  right:600    wrong:0   CV square error: 1.109209
+CV file 4:  right:600    wrong:0   CV square error: 1.097244
+CV file 5:  right:51    wrong:549   CV square error: 1.112208
+CV file 6:  right:82    wrong:518   CV square error: 1.111856
+CV file 7:  right:103    wrong:497   CV square error: 1.111443
+CV file 8:  right:14    wrong:586   CV square error: 1.114413
+CV file 9:  right:6    wrong:594   CV square error: 1.133001
+  CV total risk: 1.110296
+, C: 9.000000   tau: 0.200000
+CV file 0:  right:3    wrong:597   CV square error: 1.118518
+CV file 1:  right:598    wrong:2   CV square error: 1.109319
+CV file 2:  right:600    wrong:0   CV square error: 1.084278
+CV file 3:  right:600    wrong:0   CV square error: 1.098205
+CV file 4:  right:600    wrong:0   CV square error: 1.103014
+CV file 5:  right:183    wrong:417   CV square error: 1.110270
+CV file 6:  right:1    wrong:599   CV square error: 1.130883
+CV file 7:  right:150    wrong:450   CV square error: 1.110556
+CV file 8:  right:17    wrong:583   CV square error: 1.114040
+CV file 9:  right:26    wrong:574   CV square error: 1.114034
+  CV total risk: 1.109312
+, C: 9.000000   tau: 0.200000
+
+-------------------------------------------------------------------
+CV file 0:  right:600    wrong:0   CV square error: 1.097984
+CV file 1:  right:599    wrong:1   CV square error: 1.106525
+CV file 2:  right:597    wrong:3   CV square error: 1.109075
+CV file 3:  right:600    wrong:0   CV square error: 1.109209
+CV file 4:  right:600    wrong:0   CV square error: 1.097244
+CV file 5:  right:51    wrong:549   CV square error: 1.112208
+CV file 6:  right:82    wrong:518   CV square error: 1.111856
+CV file 7:  right:103    wrong:497   CV square error: 1.111443
+CV file 8:  right:14    wrong:586   CV square error: 1.114413
+CV file 9:  right:6    wrong:594   CV square error: 1.133001
+  CV total risk: 1.110296
+, C: 9.000000   tau: 0.200000
+CV file 0:  right:3    wrong:597   CV square error: 1.118518
+CV file 1:  right:598    wrong:2   CV square error: 1.109319
+CV file 2:  right:600    wrong:0   CV square error: 1.084278
+CV file 3:  right:600    wrong:0   CV square error: 1.098205
+CV file 4:  right:600    wrong:0   CV square error: 1.103014
+CV file 5:  right:183    wrong:417   CV square error: 1.110270
+CV file 6:  right:1    wrong:599   CV square error: 1.130883
+CV file 7:  right:150    wrong:450   CV square error: 1.110556
+CV file 8:  right:17    wrong:583   CV square error: 1.114040
+CV file 9:  right:26    wrong:574   CV square error: 1.114034
+  CV total risk: 1.109312
+, C: 9.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:198    wrong:402   CV square error: 1.109616
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.110962
+, C: 9.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:252    wrong:348   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 9.000000   tau: 0.200000
+CV file 0:  right:1    wrong:599   CV square error: 1.111111
+CV file 1:  right:384    wrong:216   CV square error: 1.111111
+CV file 2:  right:399    wrong:201   CV square error: 1.111111
+CV file 3:  right:379    wrong:221   CV square error: 1.111111
+CV file 4:  right:382    wrong:218   CV square error: 1.111111
+CV file 5:  right:248    wrong:352   CV square error: 1.111110
+CV file 6:  right:442    wrong:158   CV square error: 1.111111
+CV file 7:  right:446    wrong:154   CV square error: 1.111111
+CV file 8:  right:445    wrong:155   CV square error: 1.111111
+CV file 9:  right:424    wrong:176   CV square error: 1.111111
+  CV total risk: 1.111111
+, C: 9.000000   tau: 0.200000
+

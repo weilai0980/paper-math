@@ -1,0 +1,150 @@
+\documentclass{llncs}
+
+
+
+%
+\usepackage{makeidx}  % allows for indexgeneration
+%
+\newcommand{\ignore}[1]{}
+\usepackage{url}
+\usepackage{hyperref}
+%\usepackage{algpseudocode}
+%\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{algorithm2e}
+
+\usepackage{listings}
+\usepackage{graphicx}
+%\usepackage{subfig}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{paralist}
+\usepackage{graphics}
+\DeclareGraphicsExtensions{.eps,.gz,.eps,.pdf,.png,.jpg}
+\usepackage{multirow}
+\usepackage{verbatim}
+%\usepackage{amsthm}
+\usepackage{dblfloatfix}
+\usepackage{color}
+\usepackage{appendix}
+\usepackage[tight,footnotesize]{subfigure}
+
+\usepackage{multicol}
+
+\usepackage[margin=1.3in]{geometry}
+%\usepackage[top=1in, bottom=1in, left=1.25in, right=1.25in]{geometry}
+
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{array,color}
+
+
+\newcommand{\eat}[1]{}
+
+
+\newtheorem{mydef}{Definition}
+\newtheorem{mythm}{Theorem}
+\newtheorem{myprob}{Problem}
+\newtheorem{mystat}{PROBLEM STATEMENT}
+
+\newtheorem{scenario}{SCENARIO}
+%\renewcommand{\proof}{SKETCH PROOF}
+%\newtheorem{example}{Example}
+
+\def\nas{\ensuremath{\mathrm{not}}}
+\newcommand{\mi}[1]{\ensuremath{\mathit{#1}}}
+
+
+%\renewcommand{\bibalign}{}
+
+%\usepackage{mathtools}
+
+\urldef{\mailsa}\path|{tian.guo,sornnarong.tasorn}@epfl.ch|
+%\urldef{\mailsb}\path|{zoltan.miklos}@univ-rennes1.fr|
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip \noindent\keywordname\enspace\ignorespaces#1}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%% LLCN %%%%%%%%%%%%%
+\mainmatter  % start of an individual contribution
+
+% first the title is needed
+\title{PCML Mini-project Report}
+
+% a short form should be given in case it is too long for the running head
+\titlerunning{Lecture Notes in Computer Science: Authors' Instructions}
+
+% the name(s) of the author(s) follow(s) next
+%
+% NB: Chinese authors should write their first names(s) in front of
+% their surnames. This ensures that the names appear correctly in
+% the running heads and the author index.
+%
+
+\author{Group 18: Tasorn Sornnarong \and Tian Guo}
+
+
+%\author{Tian Guo\inst{1} \and Hao Zhuang\inst{1} \and
+%Karl Aberer\inst{1}}
+%
+\authorrunning{Lecture Notes in Computer Science: Authors' Instructions}
+% (feature abused for this document to repeat the title also on left hand pages)
+	
+% the affiliations are given next; don't give your e-mail address
+% unless you accept that it will be published
+\institute{School of Computer and Communication Sciences\\
+Ecole Polytechnique F\'ed\'erale de Lausanne (EPFL)\\
+\mailsa\\
+%\and
+%Institute 2\\
+%\mailsb\\
+}
+
+
+%
+% NB: a more complex sample for affiliations and the mapping to the
+% corresponding authors can be found in the file "llncs.dem"
+% (search for the string "\mainmatter" where a contribution starts).
+% "llncs.dem" accompanies the document class "llncs.cls".
+%
+
+\toctitle{Lecture Notes in Computer Science}
+\tocauthor{Authors' Instructions}
+%%%%%%%%%%%%% LLCN %%%%%%%%%%%%%
+
+\maketitle              % typeset the title of the contribution
+
+
+\input{svm}
+
+%\input{tcon}
+
+%\bibliographystyle{IEEEtran}
+%\bibliography{IEEEabrv,tref}
+
+%
+%\section*{Acknowledgment}
+%
+%This research has received funding from ...
+
+
+%\bibliographystyle{is-abbrv}
+%\bibliographystyle{amsalpha}
+ %\bibliographystyle{siam}
+ %\bibliographystyle{finplain}
+%\bibliographystyle{acm}
+% \bibliographystyle{alpha}
+%\bibliographystyle{abbrv}
+%\bibliographystyle{plain}
+%\bibliographystyle{amsplain}
+%\bibliographystyle{ieee}
+
+\bibliographystyle{splncs}
+\bibliography{activitybib}
+
+
+%\input{appendix}
+
+\end{document}
